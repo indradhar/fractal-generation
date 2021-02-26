@@ -1,3 +1,16 @@
 # fractal-generation
 Generating Fractals Using IFS code with the help of deterministic and Random Iteration algorithms
 ![](https://github.com/indradhar/fractal-generation/blob/main/Barnsley%20Fern%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/Dragon%20curve%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(2).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(3).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(4).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(5).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(6).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(7).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(8).png)
+![](https://github.com/indradhar/fractal-generation/blob/main/Levy%20C%20curve%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/Sierpinski%20Triangle%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/ques1%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/ques2%20fractal.png)
+![](https://github.com/indradhar/fractal-generation/blob/main/random%20fractal.png)
