@@ -1,5 +1,8 @@
 # fractal-generation
 Generating Fractals Using IFS code with the help of deterministic and Random Iteration algorithms <br />
+
+# The Deterministic Algorithm is based on the idea of directly computing a sequence of sets {An = W∘n(A)} <br />
+## Random Iteration Algorithm is founded in ergodic theory (a branch of mathematics that studies statistical properties of deterministic dynamical systems. A central question of ergodic theory is the behavior of a dynamical system when it is allowed to run for a long time). starting from an initial set A0. <br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Barnsley%20Fern%20fractal.png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/Dragon%20curve%20fractal.png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(2).png)
