@@ -8,10 +8,7 @@ The [code](https://github.com/indradhar/fractal-generation/blob/main/Code%20For%
 
 # The Deterministic Algorithm: #
 
-'''python
-fractal_generator()
-{
-  dim s(100,100) : dim t 100,100
+'''{python} {dim s(100,100) : dim t 100,100}'''
 
   //allocate two arrays of pixels <br />
   a 1 = 0.5: b 1 = 0: c 1 = 0: d 1 = 0.5: e 1 = 1: f(1) = 1<br />
@@ -61,8 +58,7 @@ fractal_generator()
   //if a key has been pressed then stop,
 
   otherwise compute A(n + 1) = W(A(n + 1))<br />
-}
-'''
+
 
 1. The result of running a higher-resolution version of this program and printing the contents of the graphics screen is presented in Figure 1. In this case we have kept each successive image produced by the program. 
 
