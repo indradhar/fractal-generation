@@ -8,7 +8,7 @@ The [code](https://github.com/indradhar/fractal-generation/blob/main/Code%20For%
 
 # The Deterministic Algorithm: #
 
-
+'''
 dim s(100,100) : dim t 100,100
 
 //allocate two arrays of pixels <br />
@@ -59,17 +59,19 @@ loop until instat<br />
 //if a key has been pressed then stop,
 
 otherwise compute A(n + 1) = W(A(n + 1))<br />
--The result of running a higher-resolution version of this program and printing the contents of the graphics screen is presented in Figure 1. In this case we have kept each successive image produced by the program. 
 
--Note that the program begins by drawing a box in the array t(i,j). This box has no impact on the final computed image of a Sierpinski triangle. We can start from any other (nonempty) set of points in the array t(i,j). 
+'''
+Markup: *The result of running a higher-resolution version of this program and printing the contents of the graphics screen is presented in Figure 1. In this case we have kept each successive image produced by the program. 
 
--To adapt the Program so that it runs with other IFS codes will usually require changing coordinates to ensure that each of
+Markup: *Note that the program begins by drawing a box in the array t(i,j). This box has no impact on the final computed image of a Sierpinski triangle. We can start from any other (nonempty) set of points in the array t(i,j). 
+
+Markup: *To adapt the Program so that it runs with other IFS codes will usually require changing coordinates to ensure that each of
 the transformations of the IFS maps the pixel array s(i,j) into itself.
 
--As it stands in Program, the array s(i,j) is a discretized representation of the square in R2 with lower left comer at
+Markup: *As it stands in Program, the array s(i,j) is a discretized representation of the square in R2 with lower left comer at
 (1, 1) and upper right comer at (100, 100). 
 
--Failure to adjust coordinates correctly will lead to unpredictable and exciting results! 
+Markup: *Failure to adjust coordinates correctly will lead to unpredictable and exciting results! 
 
 ![](https://github.com/indradhar/fractal-generation/blob/main/Barnsley%20Fern%20fractal.png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/Dragon%20curve%20fractal.png)
