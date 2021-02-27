@@ -10,54 +10,54 @@ The Deterministic Algorithm:
 
 dim s(100,100) : dim t 100,100
 
-//allocate two arrays of pixels
-a 1 = 0.5: b 1 = 0: c 1 = 0: d 1 = 0.5: e 1 = 1: f(1) = 1
-a 2 = 0.5: b 2 = 0: c 2 = 0: d 2 = 0.5: e 2 = 50: f(2) = 1
-a 3 = 0.5: b 3 = 0: c 3 = 0: d 3 = 0.5: e 3 = 25: f(3) = 50
-//input the IFS code
+//allocate two arrays of pixels <br />
+a 1 = 0.5: b 1 = 0: c 1 = 0: d 1 = 0.5: e 1 = 1: f(1) = 1<br />
+a 2 = 0.5: b 2 = 0: c 2 = 0: d 2 = 0.5: e 2 = 50: f(2) = 1<br />
+a 3 = 0.5: b 3 = 0: c 3 = 0: d 3 = 0.5: e 3 = 25: f(3) = 50<br />
+//input the IFS code<br />
 
-for i = 1 to 100
+for i = 1 to 100<br />
 
 //input the initial set A(0), in this case a square, into the array t(i,j)
 
-t(i, 1) = 1: pset(i, 1) ‘A(0) can be used as a condensation set
+t(i, 1) = 1: pset(i, 1) ‘A(0) can be used as a condensation set <br />
 t(1, i) = 1: pset(1, i) ‘A(0) is plotted on the screen
 
-t(100, i) = 1: pset(100, i)
-t(i, 100) = 1: pset(i, 100)
-next: do
-for i = 1 to 100
+t(100, i) = 1: pset(100, i)<br />
+t(i, 100) = 1: pset(i, 100)<br />
+next: do<br />
+for i = 1 to 100<br />
 
-//apply W to set A(n) to make A(n + 1) in the array s(i,j)
+//apply W to set A(n) to make A(n + 1) in the array s(i,j)<br />
 
-for j = 1 to 100 : if t(i,j) = 1 then
-s a 1 ∗ i + b 1 ∗ j + e 1 , c 1 ∗ i + d 1 ∗ j + f 1 = 1
-s(a(2) ∗ i + b(2) ∗ j + e(2), c(2) ∗ i + d(2) ∗ j + f(2)) = 1
-s(a(3) ∗ i + b(3) ∗ j + e(3), c(3) ∗ i + d(3) ∗ j + f(3)) = 1
+for j = 1 to 100 : if t(i,j) = 1 then<br />
+s a 1 ∗ i + b 1 ∗ j + e 1 , c 1 ∗ i + d 1 ∗ j + f 1 = 1<br />
+s(a(2) ∗ i + b(2) ∗ j + e(2), c(2) ∗ i + d(2) ∗ j + f(2)) = 1<br />
+s(a(3) ∗ i + b(3) ∗ j + e(3), c(3) ∗ i + d(3) ∗ j + f(3)) = 1<br />
 
-//and apply W to A(n)
+//and apply W to A(n)<br />
 
-end if: next j: next i
-cls 
-//clears the screen--omit to obtain sequence with a A(0) as condensation set
+end if: next j: next i<br />
+cls <br />
+//clears the screen--omit to obtain sequence with a A(0) as condensation set<br />
 
-for i = 1 to 100: for j = 1 to 100
-t(i,j) = s(i,j)
+for i = 1 to 100: for j = 1 to 100<br />
+t(i,j) = s(i,j)<br />
 
-//put A(n + 1) into the array t(i,j)
+//put A(n + 1) into the array t(i,j)<br />
 
 s(i,j) = 0
 
 //reset the array s(i,j) to zero
 
-if t(i,j) = 1 then
-pset(i,j) ‘plot A(n + 1)
-end if : next : next
-loop until instat
+if t(i,j) = 1 then<br />
+pset(i,j) ‘plot A(n + 1)<br />
+end if : next : next<br />
+loop until instat<br />
 
 //if a key has been pressed then stop,
 
-otherwise compute A(n + 1) = W(A(n + 1))
+otherwise compute A(n + 1) = W(A(n + 1))<br />
 The result of running a higher-resolution version of this program and printing the contents of the graphics screen is presented in Figure 1. In this case we have kept each successive image produced by the program. 
 
 Note that the program begins by drawing a box in the array t(i,j). This box has no impact on the final computed image of a Sierpinski triangle. We can start from any other (nonempty) set of points in the array t(i,j). 
