@@ -88,8 +88,8 @@ the transformations of the IFS maps the pixel array s(i,j) into itself.
 ![](https://github.com/indradhar/fractal-generation/blob/main/random%20fractal.png)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%201.jpeg)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%202.jpeg)<br />
-![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%203.jpeg)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%204.jpeg)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%205.jpeg)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%206.jpeg)<br />
 ![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%207.jpeg)<br />
+![](https://github.com/indradhar/fractal-generation/blob/main/Fractal%203.jpeg)<br />
