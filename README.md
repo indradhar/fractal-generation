@@ -1,6 +1,6 @@
 # fractal-generation
 Generating Fractals Using IFS code with the help of deterministic and Random Iteration algorithms
-![](https://github.com/indradhar/fractal-generation/blob/main/Barnsley%20Fern%20fractal.png)
+![Generating Fractals Using IFS code with the help of deterministic and Random Iteration algorithms](https://github.com/indradhar/fractal-generation/blob/main/Barnsley%20Fern%20fractal.png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/Dragon%20curve%20fractal.png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(2).png)
 ![](https://github.com/indradhar/fractal-generation/blob/main/IFSfractalUsingIterationMethod%20(3).png)
